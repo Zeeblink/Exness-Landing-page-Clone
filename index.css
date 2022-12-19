@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    --main-color: #ffcf01;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: none;
+}
+
+
+/* Container */
+.nav-container{
+    margin: 0 28px;
+}
+
+.content-container{
+    margin: 0 98px;
+}
+
+/* Top Navigation bar */
+.my-navbar{
+    background-color: #0f171c;
+    height: 68px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.my-nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+}
+
+
+#ul1 a{
+    color: whitesmoke;
+}
+
+#ul2 {
+    display: flex;
+    height: 70px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#ul2-li1, #ul2-li2{
+    margin-right: 18px;
+    border-radius: 5px;
+}
+
+#ul2-li1{
+    background-color: var(--main-color);
+    padding: 8px 20px;
+}
+
+#ul2-li1 a{
+    color: #0f171c;
+    font-weight:600;
+}
+
+#ul2-li2 {
+    background-color: none;
+    border: 1px solid rgba(255, 207, 1, 0.5);
+    padding: 8px 45px;
+}
+
+#ul2-li2 a{
+    color: var(--main-color);
+    font-weight:600;
+}
+
+
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url(exness-home-page-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-items {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0 0 98px;
+    color: whitesmoke;
+    width: 50%;
+}
+
+.hero-items h1{
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 0.6em;
+    line-height: 2.3ch;
+}
+
+.hero-items p{
+    font-size: 22px;
+    margin-bottom: 2.8em;
+    font-weight: 400;
+    line-height: 2.3ch;
+}
+
+.hero-items button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    font-weight: 600;
+}
+
+#ul2-li3 i{
+    color: white;
+    font-size: larger;
+}
+
+.section2 {
+    height: fit-content;
+    background-color: #363d42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 28px 0;
+    color: white;
+    text-align: center;
+}
+
+#section2 > div > h3 {
+    font-size: 2.4em;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+#section2 > div > p {
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+#section2 > div > a {
+    font-size: large;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+
+#img1 > img {
+   max-width: 100%;
+   margin-bottom: 0;
+}
+
+
+
+
+/* Div 3 */
+
+#div3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    color: white;
+    margin: 0 0 6rem 0;
+}
+
+
+#fast, #transparent {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+ #fast {
+    background-color: #0f171c;
+    padding-left: 98px;
+}
+
+ #transparent {
+    background-color: #8d9194;
+    padding-left: 40px;
+}
+
+
+
+/* Section 3 */
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#section3 > h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#div3 a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+#div4{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#div4 div {
+    padding: 40px 30px 25px 25px;
+}
+
+#standard_accts {
+    background-color: rgb(43, 35, 35);
+    color: whitesmoke;
+}
